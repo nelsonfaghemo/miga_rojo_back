@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-let schema = new Schema({
+let schema = new mongoose.Schema({
     manga_id: {type:mongoose.Types.ObjectId, ref:'mangas', requiered:true},
     title: {type:String, requiered:true},
     cover_photo: {type:String, requiered:true},
@@ -11,5 +11,5 @@ let schema = new Schema({
 })
 
 let collection = 'Chapters'
-let Chapter = mongoose.model(schema, collection);
+let Chapter = mongoose.model(collection, schema);
 export default Chapter;
