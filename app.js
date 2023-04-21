@@ -4,6 +4,7 @@
 //let cookieParser = require('cookie-parser');
 //let logger = require('morgan');
 import 'dotenv/config.js'
+import './config/database.js';
 import createError from 'http-errors';
 import express from 'express';
 import path from 'path';
