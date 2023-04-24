@@ -1,4 +1,5 @@
 export let mangas_v1 = [
+
   {
     title: "Alice in Borderland",
     cover_photo: "https://i.postimg.cc/PqQHYqrL/main-alice-in-borderland.jpg",

@@ -1,6 +1,7 @@
 export let categories = [
     {
         name: "shonen",
+
         color: "#EF8481",
         hover: "#FFE0DF",
         description: "Is the manga that is aimed at adolescent boys. They are series with large amounts of action, in which humorous situations often occur. The camaraderie between members of a collective or a combat team stands out.",
@@ -27,5 +28,6 @@ export let categories = [
         description: "Japanese seinen tells stories with a mature tone. Some frequent themes in the plots are sex, violence and politics.",
         character_photo: "https://i.postimg.cc/6pQ3t28c/seinen-character.png",
         cover_photo: "https://i.postimg.cc/y86JxpbF/seinen-cover.jpg"
+
     }
 ]

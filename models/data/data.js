@@ -1,3 +1,4 @@
+
 import "dotenv/config.js";
 import '../../config/database.js'
 import mongoose from "mongoose";
@@ -56,3 +57,4 @@ let data = async () => {
 };
 
 data();
+

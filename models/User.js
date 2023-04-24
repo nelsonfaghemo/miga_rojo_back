@@ -4,7 +4,9 @@ let schema = new mongoose.Schema(
   {
     email: {
       type: String,
+
       required: true,
+
     },
     password: {
       type: String,
@@ -38,6 +40,8 @@ let schema = new mongoose.Schema(
 
 let collection = "users"; //debe ser siempre en plural porque es un conjunto de recursos, datos, documentos, etc. y en lo posible en minuscula
 
+
 let User = mongoose.model(collection, schema)
+
 
 export default User;
